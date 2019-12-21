@@ -1,0 +1,192 @@
+.body{
+    border: black 1px solid;
+    margin: 11% auto 10% auto;
+    /* width: 890px; */
+    height: auto;
+    background-color: whitesmoke;
+    overflow: auto;  
+}
+
+.stretch{
+    margin: 1% auto 10% auto;
+}
+
+.name{
+    float: right
+}
+
+#info{
+    margin: 0px 20px;
+    padding: 3px 3px;
+    text-decoration: none;
+    background: #d3d3d3;
+    width: auto;
+}
+#info:hover{
+    background: #a5a5a5d2;
+}
+.bodyButtons{
+    margin-top: 37px;
+    margin-left: 0.5%;
+    width: 16%;
+    float: left;
+    display: list-item;
+    overflow: initial
+}
+#buttons{
+    margin-top: 10px;
+    margin-bottom: 28px;
+    width: 100%;
+    padding: 6px 3px;
+    /* background-color: #d3d3d3; */
+    text-decoration: none;
+    font: 13px verdana;
+    color: #000000;
+    border-bottom: 1px black;
+}
+#buttons:hover{
+    background: #d3d3d3;
+    border: #a5a5a5d2;
+    border-width: 0px 0px 0px 3px;
+    border-style: solid;
+}
+.body2{
+    border: black 1px solid;
+    margin: 5px 10px 0px 0px;
+    width: 82.1%;
+    height: auto;
+    float: right;
+}
+#report{
+    margin-left: 5%;
+    padding: 15px 5px 4px 5px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    width: 33%
+}
+#input{
+    background: #dadada;
+    border: none
+}
+.export{
+    margin: 1%  2%;
+    /* width: auto; 
+
+    float: right;     */
+}
+#print{
+    padding: 3px 3px;
+    background: #d3d3d3;
+    width: auto;
+    text-decoration: none;
+    font: 13px verdana;
+    color: #000000
+}
+#print:hover{
+    background: #d3d3d3;
+    border: #a5a5a5d2;
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+}
+#checkbox{
+    border: 1px #000000 solid;
+    background: #27850b;
+    cursor: pointer;
+}
+.bordere{
+    border:1px solid #fff0 !important;
+}
+
+.body{
+    border: black 1px solid;
+    margin: 11% auto 10% auto;
+    width: 890px;
+    height: auto;
+    background-color: whitesmoke;
+    overflow: auto;  
+}
+
+.stretch{
+    margin: 1% auto 10% auto;
+}
+
+.name{
+    float: right
+}
+
+#info{
+    margin: 0px 20px;
+    padding: 3px 3px;
+    text-decoration: none;
+    background: #d3d3d3;
+    width: auto;
+}
+#info:hover{
+    background: #a5a5a5d2;
+}
+.bodyButtons{
+    margin-top: 37px;
+    margin-left: 0.5%;
+    width: 16%;
+    float: left;
+    display: list-item;
+    overflow: initial
+}
+#buttons{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 3px 3px;
+    background-color: #d3d3d3;
+    text-decoration: none;
+    font: 13px verdana;
+    color: #000000
+}
+#buttons:hover{
+    background: #d3d3d3;
+    border: #a5a5a5d2;
+    border-width: 0px 0px 0px 3px;
+    border-style: solid;
+}
+.body2{
+    border: black 1px solid;
+    margin: 5px 10px 0px 0px;
+    width: 82.1%;
+    height: auto;
+    float: right;
+}
+#report{
+    margin-left: 5%;
+    padding: 15px 5px 4px 5px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    width: 33%
+}
+#input{
+    background: #dadada;
+    border: none
+}
+.export{
+    margin: 1%  2%;
+    width: auto; 
+    float: right;    
+}
+#print{
+    padding: 3px 3px;
+    background: #d3d3d3;
+    width: auto;
+    text-decoration: none;
+    font: 13px verdana;
+    color: #000000
+}
+#print:hover{
+    background: #d3d3d3;
+    border: #a5a5a5d2;
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+}
+#checkbox{
+    border: 1px #000000 solid;
+    background: #27850b;
+    cursor: pointer;
+}

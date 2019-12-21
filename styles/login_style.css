@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+login{
+    background-color:   #99e2c4;
+}
+
+.login{
+    border: black 1px solid;
+    margin: 12% auto 6rem auto;
+    width: 500px;
+    padding: 10px;
+    height: auto;
+    background-color: #ece8e8;
+}
+#title{
+    margin-left: 3%;
+    padding: 15px 5px 1px 5px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    width: 45%
+}
+.loginButtons{
+    width: auto;
+    padding: 15px 10px 0px 10px;
+    overflow: auto;
+}
+#button{
+    margin-right: 5px;
+    border:hidden;
+    border-radius: 2px;
+    padding: 5px 8px 5px 8px;
+    float: right;
+    background: #d3d3d3;
+    text-decoration: none;
+    font: 13px verdana;
+    color: #000000
+}
+#button:hover {
+    background-color: #27850b
+}
