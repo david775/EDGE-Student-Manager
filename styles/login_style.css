@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+login{
+    background-color:   #99e2c4;
+}
+
+.login{
+    border: black 1px solid;
+    margin: 12% auto 6rem auto;
+    width: 500px;
+    padding: 10px;
+    height: auto;
+    background-color: #ece8e8;
+}
+#title{
+    margin-left: 3%;
+    padding: 15px 5px 1px 5px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    width: 50%
+}
+.loginButtons{
+    width: auto;
+    padding: 15px 10px 0px 10px;
+    overflow: auto;
+}
+.button{
+    margin: 0 5px;
+    float: right;
+    border-color: #28a745;
+    color: #28a745;
+}
+.button:hover {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff
+}
+.buttonClose{
+    float: right;
+    border-color: #dc3545;
+    color: #dc3545;
+}
+.buttonClose:hover {
+    background-color: #dc3545;;
+    border-color: #dc3545;;
+    color: #fff
+}

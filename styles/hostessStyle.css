@@ -1,0 +1,39 @@
+.bodyButtons{
+    margin-top: 37px;
+    margin-left: 0.5%;
+    width: 16.5%;
+    float: left;
+    display: list-item;
+    overflow: initial
+}
+.data{
+    height: auto;
+    width: 50%;
+    float: left;
+}
+#report{
+    margin-left: 5%;
+    padding: 15px 5px 4px 5px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    width: 33%
+}
+#input{
+    background: #dadada;
+    border: none
+}
+.export{
+    margin: 1%  2%;
+    width: auto; 
+    float: right;    
+}
+#print{
+    padding: 3px 5px;
+    margin-right: 10px;
+    background: #d3d3d3;
+    width: auto;
+    float: right;
+    text-decoration: none;
+    font: 13px verdana;
+    color: #000000
+}

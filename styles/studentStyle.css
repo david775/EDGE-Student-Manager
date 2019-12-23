@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#home {
+    height: 30px;
+    text-align: center;
+    border: 1px solid;
+}
+body{
+    background: #69f0ae;
+}
+h1.ht1{
+    color: #0d47a1;
+    font-family: Brush Script MT;
+    font-size: 4rem;
+}
+h1.ht2{
+    color: #b71c1c;
+    font-family: Brush Script MT;
+    font-size: 4rem;
+}
+h2{
+    text-transform: uppercase;
+}
+.col img{
+    display: block;
+    margin: auto;
+}
+
+.hidden{
+    display: none;
+}
+p{
+    margin-left: 2%;
+}
+.header {
+    width: 100%;
+    height: auto;
+    background: #e8eaf6;
+    padding: 14px 0;
+    -webkit-box-shadow: 0 0 8px 3px #27850b;
+            box-shadow: 0 0 8px 3px #27850b;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.kapLogo {
+    width: 320px;
+    height: auto;
+    float: left;
+    overflow: auto;
+    padding: 0px 0px 5px 0px;
+    text-align: center
+}
+#image1{
+    width:320px;
+    float: right;
+}
+#school{
+    font-size: 120%;
+}
+#name{
+    font-family: cursive;
+    font-size: 320%;
+    margin-left: 1%;
+    vertical-align: 8%;
+    color: #aa0f0f;
+}
+.title {
+    width: 848px;
+    height: auto;
+    float: left;
+}
+.user{
+    width: auto;
+    height: auto;
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.img{
+    width: auto;
+    float: left;
+}
+.dropdown{
+    height: auto;
+    float: left;
+    position: relative;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s
+}
+.menuCSS3 ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menuCSS3 a {
+    display: block;
+    padding: 2px 10px;
+    background-color: rgb(80, 158, 84);
+    text-decoration: none;
+    font: 13px verdana;
+    color: #000000
+}
+.menuCSS3 a:hover {
+    background-color: rgb(119, 136, 56);
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
+}
+.body{
+    background-color: whitesmoke;
+    overflow: auto;
+    border-radius: 5px;
+    border: black 1px solid;
+    margin: 11% auto 10% auto;
+    height: auto;
+    overflow: auto;  
+    box-shadow: 0px 0px 6px 1px #a2a2a2;
+    -webkit-box-shadow: 0px 0px 6px 1px #a2a2a2;
+}
+.fees{
+    margin-top: 1%;
+    float: left;
+}
+#info{
+    margin: 0px 0px 0px 16px;
+    padding: 3px 3px;
+    background: #d3d3d3;
+    width: auto;
+    text-decoration: none;
+    font: 13px verdana;
+    color: #000000
+}
+#info:hover{
+    background: #a5a5a5d2;
+}
+.bodyButtons{
+    margin-top: 37px;
+    padding-right: 0px;
+    margin-left: 0px;
+}
+#buttons{
+    margin: 0 5px;
+    width: 100%;
+    padding: 6px 3px;
+    /* background-color: #d3d3d3; */
+    text-decoration: none;
+    font: 13px verdana;
+    color: #000000;
+    /* border-bottom: 1px black; */
+}
+#buttons:hover{
+    background: #d3d3d3;
+    border: #a5a5a5d2;
+    border-width: 0px 0px 0px 3px;
+    border-style: solid;
+}
+.formulario{
+    border: black 1px solid;
+    margin: 5px 10px 0px 0px;
+    border-radius: 5px;
+}
+.centerItems{
+    text-align: -webkit-center;
+}
+.espacio{
+    width: 42px;
+    padding: 1px;
+}
+.espacio input[type="radio"]{
+    display: none
+}
+.espacio{
+    width: 459px;
+}
+.espacio label{
+    display: inline-block;
+    position: relative;
+    padding: 2px 1px 2px 25px;
+    cursor: pointer;
+}
+.espacio label:hover{
+    background: rgba(red, green, blue, alpha)
+} 
+.espacio label::before{
+    content:"";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border: 3px solid #99e2de;
+    border-radius: 50%;
+    position: absolute;
+    left: 7px;
+    top: 8px;
+}
+.espacio input[type="radio"]:checked + label{
+    padding: 2px 16px;
+    background: #99e2c4;
+    border-radius: 2px;
+}
+.espacio input[type="radio"]:checked + label::before{
+    display: none;
+}
+#report{
+    margin-left: 5%;
+    padding: 15px 5px 4px 5px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    width: 33%
+}
+#input{
+    background: #dadada;
+    border: none
+}
+#print{
+    padding: 3px 5px;
+    background: #d3d3d3;
+    float: right;
+    color: #000000
+}
+#print:hover{
+    background: #d3d3d3;
+    border: #a5a5a5d2;
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+}
+#checkbox{
+    border: 1px #000000 solid;
+    background: #27850b;
+    cursor: pointer;
+}

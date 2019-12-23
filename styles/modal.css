@@ -1,0 +1,14 @@
+.bodyModel{
+    background: rgba(0,0,0,0.5);
+    width: -webkit-fill-available;
+    width: -moz-available;
+    position: fixed ;
+    height: 10000px;
+    display: none ;
+    z-index: 1 ;
+    top: 0px;
+}
+.register_modal{
+    width: 800px ;
+    /* margin-top: 22%; */
+}
