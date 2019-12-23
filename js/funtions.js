@@ -18,3 +18,10 @@ function hidd() {
         }
     }
 }
+
+function display(){
+    $('.bodyModel').css('display','block');
+}
+function displayNone() {
+    $('.bodyModel').css('display','none');
+}

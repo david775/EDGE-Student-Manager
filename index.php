@@ -13,12 +13,12 @@
 <?php include "header/plantilla.html";?>
     <div class="bodyModel">
         <div class="body container register_modal">
-            <form method="POST" action="js/function.php" class="col-12">
-                <div class="row">
-                    <div class="col-6 col-md-6">
-                        <div class="form-group">
-                            <label></label>
-                        </div>
+            <form method="POST" action="js/function.php" class="col-12 form-group">
+                <div class="row form-group">
+                </div>
+                <div class="row form-group" style="border-bottom: 1px solid;">
+                    <div class="col-12 col-md-12">
+                        <h2>Estudiantes Asociados</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -34,55 +34,57 @@
                             </select>
                         </div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-6 col-md-6">
                         <div class="form-group">
                             <label>Numero de documento(*):</label>
                             <input type="text" name="docNum" class="col-6 col-md-6 form-control form-control-sm float-right validate"required="" >
                         </div>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col-6 col-md-6">
                         <div class="form-group">
                             <label>Primer Nombre(*):</label>
                             <input type="text" name="name1" class="col-6 col-md-6 form-control form-control-sm float-right validate"required="">
                         </div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-6 col-md-6">
                         <div class="form-group">
                             <label>Segundo Nombre:</label>
                             <input type="text" name="name2" class="col-6 col-md-6 form-control form-control-sm float-right validate"required="">
                         </div>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col-6 col-md-6">
                         <div class="form-group">
                             <label>Primer Apellido(*):</label>
                             <input type="text" name="lst1" class="col-6 col-md-6 form-control form-control-sm float-right validate"required="">
                         </div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-6 col-md-6">
                         <div class="form-group">
                             <label>Segundo Apellido(*):</label>
                             <input type="text" name="lst2" class="col-6 col-md-6 form-control form-control-sm float-right validate"required="">
                         </div>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col-6 col-md-6">
                         <div class="form-group">
                             <label>Email(*):</label>
                             <input type="email" name="email" class="col-6 col-md-6 form-control form-control-sm float-right validate"required="">
                         </div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-6 col-md-6">
                         <div class="form-group">
                             <label>Contraseña(*)</label>
                             <input type="password" class="col-6 col-md-6 form-control form-control-sm float-right validate"required="">
                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-md-6">
                     </div>
                     <div class="col-6 col-md-6">
                         <div class="form-group">
@@ -91,12 +93,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-6">
-                    <div class="form-group">
-                        <input type="submit" value="Enviar" class="btn btn-danger" >
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <div class="form-group">
+                            <input type="submit" value="Enviar" class="btn button float-right">
+                            <a href="javascript:;" class="btn buttonClose float-right" onclick="displayNone();">Cancelar</a>
+                        </div>
                     </div>
                 </div>
-                <a href="#"  onclick="$('.bodyModel').css('display','none')">Cancelar</a>
             </form>
         </div>
     </div>
@@ -117,8 +121,8 @@
                     </p>
                 </div>
                 <div class="loginButtons">
-                    <a href="#" class="registration" onclick="$('.bodyModel').css('display','block')">Quiero registrarme</a>
-                    <input type="submit" id="button" value=" Iniciar sesión " name="submit">
+                    <a href="javascript:;" class="registration" onclick="display();">Quiero registrarme</a>
+                    <input type="submit"  class="btn button" value=" Iniciar sesión " name="submit">
                 </div>
             </div>
         </form>

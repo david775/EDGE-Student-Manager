@@ -16,20 +16,16 @@
 <?php include "header/header_signed.php";?> 
     <div class="body container">
         <div class="row">
-            <div class="bodyButtons col-2">
+            <div class="col-2">
                 <div class="row">
                     <div class="col-md-12">
-                        <a href="#" id="buttons">Registrar Matricula</a>
+                        <a href="#" class="btn" id="buttons">Registrar Matricula</a>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-md-12">
-                        <a href="consulta/index.html" id="buttons">Consulta</a>
+                        <a href="consulta/index.html" class="btn" id="buttons">Consulta</a>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-md-12">
-                        <a href="#" id="buttons">Informes</a>
+                        <a href="#" class="btn" id="buttons">Informes</a>
                     </div>
                 </div>
             </div>
@@ -94,7 +90,7 @@
                     </div>
                     <div class="row col-12 col-md-12">
                         <div class="row form-group col-12 col-md-12">
-                            <a href="index.php" class="btn btn-outline-success float-right">Nuevo Registro</a>
+                            <a href="family.php" class="btn button float-right">Nuevo Registro</a>
                         </div>
                     </div>
                 </div> 

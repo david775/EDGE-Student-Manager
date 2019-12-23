@@ -26,7 +26,8 @@
             foreach ($con->query('SELECT descGrade from Grade') as $row) {
             echo '<option value="'.$row['descGrade'].'">'.$row['descGrade'].'</option>';
             }
-            ?></select><br>
+            ?>
+            </select><br>
             <label for="firstname">Primer nombre*:</label>   
             <input type="text" name="firstname">
             <label for="middlename">Segundo nombre:</label>   

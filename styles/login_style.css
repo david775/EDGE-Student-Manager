@@ -19,24 +19,31 @@ login{
     padding: 15px 5px 1px 5px;
     border-width: 0px 0px 1px 0px;
     border-style: solid;
-    width: 45%
+    width: 50%
 }
 .loginButtons{
     width: auto;
     padding: 15px 10px 0px 10px;
     overflow: auto;
 }
-#button{
-    margin-right: 5px;
-    border:hidden;
-    border-radius: 2px;
-    padding: 5px 8px 5px 8px;
+.button{
+    margin: 0 5px;
     float: right;
-    background: #d3d3d3;
-    text-decoration: none;
-    font: 13px verdana;
-    color: #000000
+    border-color: #28a745;
+    color: #28a745;
 }
-#button:hover {
-    background-color: #27850b
+.button:hover {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff
+}
+.buttonClose{
+    float: right;
+    border-color: #dc3545;
+    color: #dc3545;
+}
+.buttonClose:hover {
+    background-color: #dc3545;;
+    border-color: #dc3545;;
+    color: #fff
 }
