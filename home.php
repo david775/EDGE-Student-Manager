@@ -13,7 +13,7 @@
     <title>Edge Student Manager GESTOR</title>
 </head>
 <body>
-<?php include "header/header_signed.php";?> 
+<?php //include "header/header_signed.php";?> 
     <div class="body container">
         <div class="row">
             <div class="col-2">
