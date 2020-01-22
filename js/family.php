@@ -29,6 +29,6 @@ $con->query($sql);
 var_dump($con);
 $con->query($sql1);
 var_dump($con);
-print "<script>window.location='home.php';</script>";
+print "<script>window.location='EDGE-Student-Manager/home.php';</script>";
 
 ?>

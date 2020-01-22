@@ -132,7 +132,7 @@ p{
     background-color: whitesmoke;
     overflow: auto;
     border-radius: 5px;
-    border: black 1px solid;
+    /* border: black 1px solid; */
     margin: 11% auto 10% auto;
     height: auto;
     overflow: auto;  

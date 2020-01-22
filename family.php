@@ -14,7 +14,7 @@
 </head>
 <body>
     <?php include "header/header_signed.php";?>  
-    <form method="POST" action="js/family.php" class="body  container">
+    <form method="POST" action="js/family.php" class="body container">
         <div class="row">
             <div class="col-2">
                 <div class="row">
@@ -79,7 +79,7 @@
                                     <h2>Información personal</h2>
                                 </div>
                                 <div class="col-6 col-sm-12">
-                                    <spam>Los recuadros marcados con (*) son campos obligatorios.</spam>
+                                    <spam class='float-right' style='color: #7d7d7d;'>Los recuadros marcados con (*) son campos obligatorios.</spam>
                                 </div>
                             </div>
                             <div class="row form-group">
@@ -90,8 +90,8 @@
                                     <input name="name1" class="form-control form-control-sm float-right" value="<?php echo $name1?>">
                                 </div>
                                 <div class="col-6">
-                                    <label>Telefono *</label> 
-                                    <input type="text" name="cellPhone" class="form-control form-control-sm float-right" value="<?php echo$phone?>">
+                                    <label>Primer nombre*</label>
+                                    <input name="name2" class="form-control form-control-sm float-right" value="<?php echo $name2?>">
                                 </div>
                             </div>
                             <div class="row form-group">
